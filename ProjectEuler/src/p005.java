@@ -1,12 +1,14 @@
 
 /**
- * This class solves problem five present in Project Euler.
+ * This class solves problem five in Project Euler.
  * 
  * 2520 is the smallest number that can be divided by each of the numbers from 1 to 10 without any remainder.
  * What is the smallest positive number that is evenly divisible by all of the numbers from 1 to 20?
  * 
  * This solution uses the concept of dynamic programming
- * 
+ */
+
+/**
  * @author Kamil Adem
  *
  */
