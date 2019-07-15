@@ -1,8 +1,6 @@
 /**
  * Interface which requires a String method run()
- */
-
-/**
+ * 
  * @author Kamil Adem
  *
  */

@@ -5,9 +5,7 @@
  * What is the largest prime factor of the number 600851475143?
  * 
  * This solution uses a brute force algorithm 
- */
-
-/**
+ * 
  * @author Kamil Adem
  *
  */

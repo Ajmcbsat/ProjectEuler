@@ -5,9 +5,7 @@
  * Find the largest palindrome made from the product of two 3-digit numbers.
  * 
  * This solution uses a brute force algorithm 
- */
-
-/**
+ * 
  * @author Kamil Adem
  *
  */
