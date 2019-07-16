@@ -37,8 +37,8 @@ public class p007 implements Euler {
 	 * Since the given input will never be an input of multiple 2, that test case is not needed.
 	 * Due to the nature of the algorithm, all numbers less than 9 are prime numbers.
 	 * For prime numbers greater than or equal to nine, it tests for multiples of three.
-	 * All prime numbers greater than 3 can be written in the form 6k+-1 where k is 1:N.
-	 * All primes numbers grater than 3 are tested by every prime number until itself.
+	 * All prime numbers greater than 3 can be written in the form 6k+-1 where k is 1:sqrt(num).
+	 * All primes numbers grater than 3 are tested by every prime number until the square of itself.
 	 * 
 	 * @param num the number being tested
 	 * @return	  whether the number is prime
