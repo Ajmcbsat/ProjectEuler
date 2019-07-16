@@ -12,6 +12,11 @@
 public class p003 implements Euler {
 
 	/**
+	 * Long integer containing the value 600851475143
+	 */
+	private long num = 600851475143L;
+	
+	/**
 	 * This method computes the biggest prime factor of a number
 	 * This method iteratively calls method smallestPrimeFactor to
 	 * obtain the smallest prime factor and factors that value out
@@ -22,7 +27,6 @@ public class p003 implements Euler {
 	 */
 	@Override
 	public String run() {
-		long num = 600851475143L;
 		long p = 0;
 		while(num!=1) {
 			p = smallestPrimeFactor(num);
