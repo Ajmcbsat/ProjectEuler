@@ -1,4 +1,3 @@
-import java.util.Scanner;
 /**
  * This class solves problem eight in Project Euler.
  *  
