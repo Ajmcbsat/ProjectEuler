@@ -11,7 +11,7 @@
  */
 public class p007 implements Euler {
 
-	
+
 	/**
 	 * This method computes the 10001st prime number
 	 * This method takes advantage of the fact that all prime numbers are odd
@@ -23,7 +23,7 @@ public class p007 implements Euler {
 	public String run() {
 		int count =2;
 		int num = 3;
-		for (int i=3; count<10001; i+=2) {
+		for (int i=3; count<10002; i+=2) {
 			if (isPrime(i)) {
 				count++;
 				num = i;
@@ -54,7 +54,7 @@ public class p007 implements Euler {
 		}
 		
 		int p = 5;
-		while ((p+2)<num) {
+		while (p<=Math.sqrt(num)) {
 			if (num%p == 0) {
 				return false;
 			}
