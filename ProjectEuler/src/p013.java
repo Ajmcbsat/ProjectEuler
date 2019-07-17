@@ -213,12 +213,8 @@ public class p013 implements Euler {
 					   "20849603980134001723930671666823555245252804609722\n" + 
 					   "53503534226472524250874054075591789781264330331690";
 
-	public static void main(String[] args) {
-		System.out.println(new p013().run());
-	}
-	
 	/**
-	 * This method scans the Strings line by line, converts the string into an array of digits and adds the arrays together.
+	 * This method scans the String line by line, converts the string into an array of digits and adds the arrays together.
 	 * After all arrays are added together, the first 10 digits are extracted from the final arrray.
 	 * 
 	 * @return the first 10 digits of the sum
