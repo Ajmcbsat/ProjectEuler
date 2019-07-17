@@ -1,4 +1,5 @@
 /**
+ * This class solves problem eleven in Project Euler
  * 
  * In the 20×20 grid below, four numbers along a diagonal line have been marked in red.
  * 
