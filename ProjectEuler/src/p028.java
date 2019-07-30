@@ -21,7 +21,7 @@ public class p028 implements Euler {
 	 * This method computes the sum of the diagonals of a 1001 by 1001 spiral.
 	 * For each level, the diagonals must be some factor of 2 away from each other and this factor consistently increases
 	 * by a sum of 2. The maximum diagonal value is the size of the spiral squared which is 1001^2=1002001. 
-	 * This method iterates unitl the maximum diagonal value is reached.
+	 * This method iterates until the maximum diagonal value is reached.
 	 * 
 	 * @return the sum of all the diagonals in a 1001 by 1001 spiral
 	 */
