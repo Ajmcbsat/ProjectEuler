@@ -36,7 +36,6 @@ public class p030 implements Euler {
 		return Integer.toString(sum);
 	}
 
-	
 	/**
 	 * This method computes the sum of fifth powers of the digits of a number.
 	 * Iterates over an integer be extracting the last digit by dividing by 10 and extracting the remainder.
