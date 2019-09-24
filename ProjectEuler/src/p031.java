@@ -34,8 +34,5 @@ public class p031 implements Euler {
 		}
 		return Integer.toString(matrix[200]);
 	}
-
-	public static void main(String[] args) {
-		System.out.println(new p031().run());
-	}
+	
 }
