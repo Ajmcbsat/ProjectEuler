@@ -22,6 +22,8 @@ public class p031 implements Euler {
 	 * This method computes the solution using dynamic programming.
 	 * Iteratively solves subset sums and stores the values into the matrix array.
 	 * Solution is built upon previous results and value is stored at the end of matrix array
+	 * 
+	 * @return Number of combinations of coins
 	 */
 	@Override
 	public String run() {
